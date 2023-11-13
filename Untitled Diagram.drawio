@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T15:57:43.374Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="DzHdFjmqdte8hHanbw1E" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T16:10:43.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="N_YXJIGOZiPHAwTBVr6R" version="22.1.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="986" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,39 +10,65 @@
         <mxCell id="muTONlBN6RMMn4obde55-0" value="Input Document" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/File.svg;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="73" width="56.00000000000001" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="muTONlBN6RMMn4obde55-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="muTONlBN6RMMn4obde55-1" target="muTONlBN6RMMn4obde55-6">
+        <mxCell id="muTONlBN6RMMn4obde55-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="muTONlBN6RMMn4obde55-1" target="muTONlBN6RMMn4obde55-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="muTONlBN6RMMn4obde55-8" value="Document&amp;nbsp;&lt;br&gt;Metadata" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="muTONlBN6RMMn4obde55-7">
-          <mxGeometry x="0.1333" y="1" relative="1" as="geometry">
-            <mxPoint x="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="muTONlBN6RMMn4obde55-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="muTONlBN6RMMn4obde55-1" target="muTONlBN6RMMn4obde55-9">
+        <mxCell id="muTONlBN6RMMn4obde55-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="muTONlBN6RMMn4obde55-1" target="muTONlBN6RMMn4obde55-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="muTONlBN6RMMn4obde55-1" value="Data Extractor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="210" y="75" width="120" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="muTONlBN6RMMn4obde55-2" value="Raw data for each document" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="230" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="muTONlBN6RMMn4obde55-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="muTONlBN6RMMn4obde55-1" target="muTONlBN6RMMn4obde55-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="muTONlBN6RMMn4obde55-4" value="Raw Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="muTONlBN6RMMn4obde55-3">
-          <mxGeometry x="-0.1429" relative="1" as="geometry">
-            <mxPoint x="18" as="offset" />
+        <mxCell id="muTONlBN6RMMn4obde55-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="muTONlBN6RMMn4obde55-9" target="muTONlBN6RMMn4obde55-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="108" />
+              <mxPoint x="740" y="164" />
+              <mxPoint x="675" y="164" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="muTONlBN6RMMn4obde55-6" value="High level metadata about the document" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="130" y="230" width="80" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="muTONlBN6RMMn4obde55-9" value="Data standardizer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="450" y="77.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="77.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="muTONlBN6RMMn4obde55-10" value="Raw data categorized into recurring and non-recurring data" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="315" y="340" width="110" height="130" as="geometry" />
+        <mxCell id="muTONlBN6RMMn4obde55-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="muTONlBN6RMMn4obde55-14" target="muTONlBN6RMMn4obde55-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="335" />
+              <mxPoint x="480" y="170" />
+              <mxPoint x="610" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="muTONlBN6RMMn4obde55-14" value="Extractor Data store" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="190" width="320" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="muTONlBN6RMMn4obde55-2" value="Raw data for each document" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="muTONlBN6RMMn4obde55-14">
+          <mxGeometry x="190" y="40" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="muTONlBN6RMMn4obde55-10" value="Raw data categorized into recurring and non-recurring data" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="muTONlBN6RMMn4obde55-14">
+          <mxGeometry x="190" y="150" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="muTONlBN6RMMn4obde55-16" value="High level &lt;br&gt;metadata about the document like the url, company_name, company_id, etc." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="muTONlBN6RMMn4obde55-14">
+          <mxGeometry x="40" y="150" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="muTONlBN6RMMn4obde55-6" value="Document metadata" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="muTONlBN6RMMn4obde55-14">
+          <mxGeometry x="40" y="40" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="muTONlBN6RMMn4obde55-18" value="Standardizer Datastore" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="190" width="310" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="muTONlBN6RMMn4obde55-21" value="Taxonomy" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="muTONlBN6RMMn4obde55-18">
+          <mxGeometry x="30" y="50" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="muTONlBN6RMMn4obde55-22" value="Standardized DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="muTONlBN6RMMn4obde55-18">
+          <mxGeometry x="190" y="50" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="muTONlBN6RMMn4obde55-23" value="Taxonomy from SEC and business rules for the data points to be collected" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="muTONlBN6RMMn4obde55-18">
+          <mxGeometry x="15" y="150" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="muTONlBN6RMMn4obde55-24" value="Data points after applying business rules and additional derived data points." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="muTONlBN6RMMn4obde55-18">
+          <mxGeometry x="180" y="150" width="110" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
